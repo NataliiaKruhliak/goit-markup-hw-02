@@ -1,0 +1,142 @@
+:root {
+  --main-color-text: #212121;
+  --second-maim-color-text: #757575;
+  --accent-color: #2196f3;
+  --main-font-family: "Roboto", sans-serif;
+  --second-font-family: "Raleway", sans-serif;
+  --main-background-color: #f5f5f5;
+  --second-background-color: #2f303a;
+  --main-font-weight: 400;
+  --second-font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link:focus,
+.link:hover {
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  color: var(--main-color-text);
+  background-color: var(--main-background-color);
+}
+
+/* Загальні стилі для лого */
+.logo {
+  font-family: var(--second-font-family);
+  font-weight: var(--second-font-weight);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+/* Загальні стилі для заголовків
+.section-title {
+} */
+
+/* -------------------------------HEADER------------------------------- */
+
+.header .logo span {
+  color: #000000;
+}
+.header-nav-link {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color-text);
+}
+
+.header-contact-link {
+  color: var(--second-maim-color-text);
+}
+
+/* -------------------------------MAIN------------------------------- */
+
+.portfolio-btn {
+  background-color: #f5f4fa;
+  color: inherit;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* color: #212121; */
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-family: var(--main-font-family);
+  font-weight: var(--second-font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* -------------------------------FOOTER------------------------------- */
+
+.footer {
+  background: var(--second-background-color);
+}
+
+.footer-address {
+  font-style: normal;
+}
+
+.footer .logo span,
+.footer-address-link {
+  color: #ffffff;
+}
+
+.footer-address-link {
+  font-weight: var(--main-font-weight);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Загальні стилі для посилань контактів у хедері та футері */
+.footer-contact-link {
+  font-weight: var(--main-font-weight);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
