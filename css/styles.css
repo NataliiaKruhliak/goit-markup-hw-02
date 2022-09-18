@@ -23,7 +23,10 @@
 }
 
 .link:focus,
-.link:hover,
+.link:hover {
+  color: var(--accent-color);
+}
+
 .link:active {
   color: var(--accent-color);
 }
