@@ -27,7 +27,7 @@
   color: var(--accent-color);
 }
 
-.link:active {
+.header-list .link:active {
   color: var(--accent-color);
 }
 
