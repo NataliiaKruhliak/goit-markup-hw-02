@@ -86,6 +86,10 @@ body {
 
 .header-contact-link {
   color: var(--second-maim-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* -------------------------------FOOTER------------------------------- */
@@ -98,22 +102,21 @@ body {
   font-style: normal;
 }
 
-.footer .logo span,
-.footer-address-link {
+.footer .logo span {
   color: var(--white-color);
 }
 
-.footer-address-link {
+.footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-/* Загальні стилі для посилань контактів у хедері та футері */
-.footer-contact-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.footer-link.address {
+  color: var(--white-color);
+}
+
+.footer-link.contact {
   color: rgba(255, 255, 255, 0.6);
 }
 
